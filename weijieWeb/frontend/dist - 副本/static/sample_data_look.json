@@ -1,0 +1,1448 @@
+[{
+   "question_id": 1,
+   "question":  "What is 'number of asset / media unit / frame'?",
+   "questionCn" : "什么是“资产/媒体单元/框架的数量？”",
+   "responsesCn" : [
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"在给定时间段内，一个品牌的广告时间占总广告时间的百分比"},
+     {"text":"显示广告的屏幕/海报/灯箱/横幅…的数量。 例如 双面iVision是两项资产。 巨大的LED屏幕，灯箱，滚动面板，横幅或海报是一项资产。", "correct": true },
+     {"text":"搭乘相同航班号的转机航班的乘客 "}
+   ],
+   "responses": [
+   { "text": "In AAM a network is composed by at least 3 assets." },
+   { "text": "The percentage of advertising time for one brand within the total advertising time on a given period." },
+   { "text": "Number of screen/poster/Lightbox/Banner… where the ad is displayed. e.g.  a double face iVision is two assets. A giant LED screen, a Lightbox, a scrolling panel, a banner or a poster is one asset." , "correct": true },
+   { "text": "Passengers that board a connecting flight with the same flight number." }
+     ]
+},
+
+{
+   "question_id": 2,
+   "question":  "What is 'media network'?",
+   "questionCn" : "什么是网络媒体",
+   "responsesCn" : [
+     {"text":"已登机和下机的乘客总数，过境旅客计算一次"},
+     {"text":"在AAM中，网络由至少三个或者以上媒体组成", "correct": true },
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）。"},
+     {"text":"搭乘相同航班号的转机航班的乘客"}
+   ],
+   "responses": [
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once."  },
+   { "text": "In AAM a network is composed by at least 3 assets." , "correct": true },
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Passengers that board a connecting flight with the same flight number." }
+     ]
+},
+
+{
+   "question_id": 3,
+   "question":  "What is 'loop'?",
+   "questionCn" : "什么是“循环”",
+   "responsesCn" : [
+     {"text":"在AAM中，网络由至少三个或者以上资产组成"},
+     {"text":"在广告活动期间，至少看过一次或以上广告活动的乘客。例如，如果一名乘客在广告活动期间从同一所选机场进行了登机或下机，则会被计算一次","correct": true },
+     {"text":"数字方式滚动。每个循环包含多个广告（广告位）。"},
+     {"text":"搭乘相同航班号的转机航班的乘客"}
+   ],
+   "responses": [
+   { "text": "In AAM a network is composed by at least 3 assets."  },
+   { "text": "Total number of individuals exposed to the ad at least once during the campaign." },
+   { "text": "Digital way of scrolling. Each loop contains multiple ads (slots).","correct": true },
+   { "text": "Passengers that board a connecting flight with the same flight number." }
+     ]
+},
+
+{
+   "question_id": 4,
+   "question":  "What is 'share of time (sot)'?",
+   "questionCn" : "什么是“时间份额（sot）”？",
+   "responsesCn" : [
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"在给定时间段内，一个品牌的广告时间在总广告时间内所占的百分比。SOT=广告位持续时间/循环时间。例如，在1分钟20秒的循环中，10秒光点长度的SOT为12.5％", "correct": true },
+     {"text":"个体看到DOOH＆OOH广告的平均次数（条件是至少看一次或者以上）接触频次 = 广告有效展示次数 / 广告活动中独立乘客数量"}
+   ],
+   "responses": [
+   { "text": "In AAM a network is composed by at least 3 assets" },
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "The percentage of advertising time for one brand within the total advertising time on a given period. SOT = slot duration/loop duration. e.g. Within a 1min20 sec loop, the SOT of a 10 sec spot length is 12,5%" , "correct": true },
+   { "text": "The average number of times an individual sees the DOOH&OOH ad (conditional on seeing it at least once)" }
+     ]
+},
+
+{
+   "question_id": 5,
+   "question":  "What is '# of airport passengers (aci)'?",
+   "questionCn" : "什么是“机场乘客数量（aci）”？",
+   "responsesCn" : [
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。 * Passengers = Pax（IATA定义）", "correct": true},
+     {"text":"广告的总观看时间。它是在媒体网络级别和资产级别计算的"},
+     {"text":"显示广告的总时间。它是在媒体网络级别和资产级别计算的"},
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"}
+   ],
+   "responses": [
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once. *Passengers = Pax (IATA Definition)" , "correct": true },
+   { "text": "Total number of time an ad is seen. It is calculated at the media network level and at the asset level." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." },
+   { "text": "In AAM a network is composed by at least 3 assets." }
+     ]
+},
+
+{
+   "question_id": 6,
+   "question":  "What is 'transit passengers'?",
+   "questionCn" : "什么是“过境旅客”？",
+   "responsesCn" : [
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）。"},
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"搭乘相同航班号的转机航班的乘客 ","correct": true},
+     {"text":"数字方式滚动。每个循环包含多个广告（广告位）。"}
+   ],
+   "responses": [
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)."},
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "Passengers that board a connecting flight with the same flight number.","correct": true },
+   { "text": "Digital way of scrolling. Each loop contains multiple ads (slots)." }
+     ]
+},
+
+{
+   "question_id": 7,
+   "question":  "What is 'transfer passengers'?",
+   "questionCn" : "什么是“转机乘客”？",
+   "responsesCn" : [
+     {"text":"该广告已开始在屏幕上呈现。 请注意，在绝大部分的DOOH体验中，所有广告（投放时）在整个播放过程中都是完全可见的。 在数字媒体世界中，该术语通常称为“播放”。"},
+     {"text":"广告包含在屏幕的可见空间中，位于全屏或部分屏幕的焦点对准的广告单元中，并且在可见空间和时间长度内符合预先确定的最小广告像素百分比 广告位于屏幕的可见空间中。"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）。", "correct": true },
+     {"text":"搭乘相同航班号的转机航班的乘客 "}
+   ],
+   "responses": [
+   { "text": "An ad that was reported to have begun to render at the screen. Note that in the vast majority of DOOH experiences, all ads (when served) are fully viewable for the entirety of the play. In the digital media world, this term is commonly known as a “play”." },
+   { "text": "An ad was contained in the viewable space of the screen, it is in an in-focus ad unit that is either Full screen or Partial screen, and it meets pre-established minimum percent of ad pixels within the viewable space and the length of time the ad is in the viewable space of the screen. " },
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." , "correct": true },
+   { "text": "Passengers that board a connecting flight with the same flight number." }
+     ]
+},
+
+{
+   "question_id": 8,
+   "question":  "What is '# of airport unique passengers'?",
+   "questionCn" : "什么是“机场唯一乘客数量”",
+   "responsesCn" : [
+     {"text":"在广告投放期间至少被记录一次的人数。", "correct": true},
+     {"text":"在任何地理上定义的市场中，一个评分点的成本。"},
+     {"text":"网络设备覆盖的地理区域。"},
+     {"text":"搭乘相同航班号的转机航班的乘客 "}
+   ],
+   "responses": [
+   { "text": "Total number of individuals encountered at least once during the campain." , "correct": true },
+   { "text": "The cost of one rating point in any geographically defined market." },
+   { "text": "The geographic area covered by network installations." },
+   { "text": "Passengers that board a connecting flight with the same flight number." }
+     ]
+},
+
+{
+   "question_id": 9,
+   "question":  "What is '# of campaign unique passengers'?",
+   "questionCn" : "什么是“广告投放期间的唯一旅客”",
+   "responsesCn" : [
+     {"text":"由DOOH网络定义的单位，用于描述将在其上播放DOOH广告单元的物理设备。 对于基于位置的数字网络，大多数情况下，媒体单元是单个屏幕，但是在组合多个屏幕以描绘大于一个屏幕的内容的位置，整个屏幕组可以称为单个媒体 单元。"},
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"在广告投放期间至少一次接触广告的总人数。 例如。 如果在广告投放期间从同一选定的机场，计划内或计划外下飞机，则该乘客将被计算一次", "correct": true },
+     {"text":"在广告投放期间至少被记录一次的人数。"}
+   ],
+   "responses": [
+   { "text": "A unit defined by the DOOH network, used to describe the physical device on which a DOOH ad unit will play. Most often for digital place-based networks, a media unit is a single screen, however in locations where multiple screens are combined to portray content that is larger than one screen, the entirety of the group of screens may be referred to as a single media unit." },
+   { "text": "In AAM a network is composed by at least 3 assets." },
+   { "text": "Total number of individuals exposed to the ad at least once during the campaign. Eg. A passenger is counted once if he enplans and deplans from the same selected airport during the campaign" , "correct": true },
+   { "text": "Total number of individuals encountered at least once during the campaign. " }
+     ]
+},
+
+{
+   "question_id": 10,
+   "question":  "What is 'audience'?",
+   "questionCn" : "什么是“受众”",
+   "responsesCn" : [
+     {"text":"广告投放期间看到广告的唯一乘客总数。 与机场的每月计数相比，旅客只计算一次。 个人看到广告的时间没有任何影响。", "correct": true},
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"已登机和下机的乘客总数，过境旅客计算一次*Passengers = Pax (IATA定义)"},
+     {"text":"在广告投放期间至少被记录一次的人数。"}
+   ],
+   "responses": [
+   { "text": "Total number of unique passengers seeing an ad during the campaign. Compare to airports’ monthly count, passengers are counted once. The number of time an individual sees the ad does not have any impact." , "correct": true },
+   { "text": "In AAM a network is composed by at least 3 assets." },
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once." },
+   { "text": "Total number of individuals encountered at least once during the campaign." }
+     ]
+},
+
+{
+   "question_id": 11,
+   "question":  "What is '# of spots'?",
+   "questionCn" : "什么是“观察点数量”",
+   "responsesCn" : [
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）。"},
+     {"text":"广告展示的总数。它是在媒体套装级别和媒体级别计算的。", "correct": true },
+     {"text":"看到广告机会的总数"},
+     {"text":"在广告投放期间至少被记录一次的人数。"}
+   ],
+   "responses": [
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." , "correct": true },
+   { "text": "Total number of opportunity to see an ad." },
+   { "text": "Total number of individuals encountered at least once during the campaign. " }
+     ]
+},
+
+{
+   "question_id": 12,
+   "question":  "What is '# of viewable impression'?",
+   "questionCn" : "什么是“可见的展示数量”",
+   "responsesCn" : [
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的", "correct": true},
+     {"text":"看到广告的机会总数。它是在媒体网络级别和资产级别计算的。"},
+     {"text":"被广告主选择用来触发或者包含在他们搜索引擎广告里的特定的词语或词组"},
+     {"text":"在广告投放期间至少被记录一次的人数。"}
+   ],
+   "responses": [
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." , "correct": true},
+   { "text": "Total number of opportunity to see an ad. It is calculated at the media network level and at the asset level."},
+   { "text": "A specific word or phrase chosen by advertisers to trigger and include their ad withi search engine results." },
+   { "text": "Total number of individuals encountered at least once during the campaign. " }
+     ]
+},
+
+{
+   "question_id": 13,
+   "question":  "What is '# of viewed impression'?",
+   "questionCn" : "什么是“已见的展示数量”",
+   "responsesCn" : [
+     {"text":"广告的总观看时间。它是在媒体网络级别和资产级别计算的", "correct": true},
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。"},
+     {"text":"是通过广告活动可以达到的潜在用户总数"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"}
+   ],
+   "responses": [
+   { "text": "Total number of time an ad is seen. It is calculated at the media network level and at the asset level" , "correct": true },
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page." },
+   { "text": "Is the potential total number of users that can be reached through a campaign." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." }
+     ]
+},
+
+{
+   "question_id": 14,
+   "question":  "What is 'frequency'?",
+   "questionCn" : "什么是“频率”",
+   "responsesCn" : [
+     {"text":"个体看到DOOH＆OOH广告的平均次数（条件是至少看一次或者以上）接触频次 = 广告有效展示次数 / 广告活动中独立乘客数量 ", "correct": true},
+     {"text":"在报告期间内，有机会看到任何消息的不重复的受众。"},
+     {"text":"目标受众通常在定义的时间范围内接触内容，广告或特定广告的次数。 频率代表与累积覆盖范围估计值结合使用时的平均暴露程度，尽管当通过频率分布分析在离散覆盖范围估计的情况下进行评估时，频率也可以根据特定暴露水平进行报告。", "correct": true},
+     {"text":"广告展示的总数。它是在媒体套装级别和媒体级别计算的。"}
+   ],
+   "responses": [
+   { "text": "The average number of times an individual sees the DOOH&OOH ad (conditional on seeing it at least once). Frequency = viewed impressions / Campaign Unique Pax " , "correct": true },
+   { "text": "The unduplicated audience that has an opportunity to see any message during a reporting period."},
+   { "text": "The number of times the target audience is typically exposed to content, advertising, or a specific ad, in the defined time frame. Frequency represents the average exposure when used in conjunction with cumulative reach estimates, though it can also be reported on the basis of specific exposure levels when evaluated in the context of discrete reach estimates through frequency distribution analyses." , "correct": true },
+   { "text": "Total number of opportunity to see an ad." }
+     ]
+},
+
+{
+   "question_id": 15,
+   "question":  "What is 'reach'?",
+   "questionCn" : "什么是“抵达”",
+   "responsesCn" : [
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数", "correct": true},
+     {"text":"在指定的时间范围内，在屏幕上展示给内容，广告或特定广告的目标受众的定义域的净（未重复）计数或百分比。 该时间范围可以是一天，一周或一个月，甚至是频率较低的时间段，尽管用户通常希望获得更频繁的报告。 （来源：MRC数字基于地点的受众群体衡量标准版本1）”", "correct": true},
+     {"text":"消费者对品牌或产品的熟悉程度。"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"}
+   ],
+   "responses": [
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement. Reach is a percentage. It can be calculated at airport, terminal or media network level. e.g. Airport Total Reach = Campaign Unique Pax / Airport Unique Pax" , "correct": true },
+   { "text": "The net (unduplicated) count or percent of the defined universe of the target audience exposed to content, advertising, or a specific ad, in a Screen within a defined time frame. This time frame can be a day, week, or month, or even less-frequent time periods although more frequent reports are generally desirable to users. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" , "correct": true },
+   { "text": "The extent consumers are familiar with a brand or product."},
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." }
+     ]
+},
+
+{
+   "question_id": 16,
+   "question":  "What is 'gross cpm/cpt'?",
+   "questionCn" : "什么是“cpm/cpt”",
+   "responsesCn" : [
+     {"text":"1000 *毛费率/浏览的展示次数。 CPT = CPM。 “ M”取自罗马数字中的“千”。", "correct": true},
+     {"text":"消费者对品牌或产品的熟悉程度。"},
+     {"text":"客户对品牌的看法以及受众对品牌的感觉。 也称为“品牌资产”"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"}
+   ],
+   "responses": [
+   { "text": "1000 * Gross Rate / Viewed impressions. CPT = CPM. The 'M' is taken from the Roman numeral for 'thousand'." , "correct": true },
+   { "text": "The extent consumers are familiar with a brand or product."},
+   { "text": "The way a brand is viewed by its customers, and how your audience feels about your brand. Also known as “Brand Equity”." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." }
+     ]
+},
+
+{
+   "question_id": 17,
+   "question":  "What is 'opportunity to see'?",
+   "questionCn" : "什么是“可见机会”",
+   "responsesCn" : [
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"},
+     {"text":"看到广告的机会总数。它是在媒体网络级别和资产级别计算的。", "correct": true},
+     {"text":"消费者考虑购买品牌的程度"},
+     {"text":"个体看到DOOH＆OOH广告的平均次数（条件是至少看一次或者以上）接触频次 = 广告有效展示次数 / 广告活动中独立乘客数量 "}
+   ],
+   "responses": [
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." },
+   { "text": "Total number of opportunity to see an ad. It is calculated at the media network level and at the asset level." , "correct": true },
+   { "text": "The extent a consumer will consider a brand for purchase." },
+   { "text": "The average number of times an individual sees the DOOH&OOH ad (conditional on seeing it at least once)." }
+     ]
+},
+
+{
+   "question_id": 18,
+   "question":  "What is 'viewable impression'?",
+   "questionCn" : "什么是“可见的展示次数”",
+   "responsesCn" : [
+     {"text":"在没有单独浏览器的DOOH中，可见的印象被视为一种看到的机会。 可见度标准是： 面向交通流的方向。 b。 使海报的两个边缘都可见。 C。 永远不能有超过10％的阻塞。 d。 如果海报具有专用照明，则仅在晚上（可见）会有观众。", "correct": true},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"广告包含在屏幕的可见空间中，位于全屏或部分屏幕的焦点对准的广告单元中，并且在可见空间和时间长度内符合预先确定的最小广告像素百分比 广告位于屏幕的可见空间中。 公认的是，具有可见广告印象的广告存在“看到的机会”，而投放的广告印象可能是这种情况，也可能不是。", "correct": true},
+     {"text":"看广告的总时间。"}
+   ],
+   "responses": [
+   { "text": "In DOOH where there is no individual browser, a viewable impression is consider as an opportunity to see. Viewability criteria are: a. Be facing in the direction of the traffic flow. b. Have both edges of poster visible. c. Can never have more than 10% obstruction. d. Will only receive audience at night (be viewable) if the poster has dedicated illumination." , "correct": true },
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed."},
+   { "text": "An ad was contained in the viewable space of the screen, it is in an in-focus ad unit that is either Full screen or Partial screen, and it meets pre-established minimum percent of ad pixels within the viewable space and the length of time the ad is in the viewable space of the screen. It is recognized that an “opportunity to see” the ad exists with a viewable ad impression, which may or may not be the case with a served ad impression." , "correct": true },
+   { "text": "Total number of time an ad is seen." }
+     ]
+},
+
+
+{
+   "question_id": 19,
+   "question":  "What is 'viewed impression / vac'?",
+   "questionCn" : "什么是“有效展示次数”",
+   "responsesCn" : [
+     {"text":"一种度量单位，包括有机会看到（又称为流量），通知和停留时间的总人数，并根据媒体的有效长度进行校准。 也可以解释为通过数字户外显示或静态显示的人们很可能注意到一条消息的总次数。 该概念有时称为“可见性调整触点”或“ VAC”。", "correct": true},
+     {"text":"广告客户希望与其广告系列联系的特定群体。 目标受众是由某些属性或一组属性定义的（例如18-24岁的女性，跑车迷，新轿车的购物者购物市场）。"},
+     {"text":"基于过去购买行为的资料，例如：哪些物品？ 什么时候？ 花了多少钱？"},
+     {"text":"广告包含在屏幕的可见空间中，位于全屏或部分屏幕的焦点对准的广告单元中，并且在可见空间和时间长度内符合预先确定的最小广告像素百分比 广告位于屏幕的可见空间中。 公认的是，具有可见广告印象的广告存在“看到的机会”，而投放的广告印象可能是这种情况，也可能不是。"}
+   ],
+   "responses": [
+   { "text": "A unit of measure that includes the total number of people with an opportunity to see (aka traffic), notice, and dwell time, calibrated to the media’s spot length. It can also be explained as the total number of times people passing a digital out-of-home display or static one are likely to notice a message. This concept is sometimes referred to as “Visibility Adjusted Contact”, or “VAC”." , "correct": true },
+   { "text": "A specific group that an advertiser seeks to reach with its campaign. Target audience is defined by a certain attribute or set of attributes (e.g. Women aged 18-24, Sports Car Lovers, Shoppers In-market for a New Sedan)." },
+   { "text": "Profile based on past purchase behaviour, such as: What items? When? How much was spent?" },
+   { "text": "An ad was contained in the viewable space of the screen, it is in an in-focus ad unit that is either Full screen or Partial screen, and it meets pre-established minimum percent of ad pixels within the viewable space and the length of time the ad is in the viewable space of the screen. It is recognized that an “opportunity to see” the ad exists with a viewable ad impression, which may or may not be the case with a served ad impression." }
+     ]
+},
+
+
+{
+   "question_id": 20,
+   "question":  "What is 'ad impression'?",
+   "questionCn" : "什么是“广告印象”",
+   "responsesCn" : [
+     {"text":"是点击广告的用户与展示广告的次数之比。 这是监视广告系列效果的最基本形式。"},
+     {"text":"广告印象是一次成功的广告调用-网页上加载的一个广告就是一次广告印象。 广告呼叫或广告请求是指一台计算机向另一台计算机请求广告。 这是一个通用术语，指的是广告请求。", "correct": true},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。"}
+   ],
+   "responses": [
+   { "text": "Is the ratio of users which have clicked on an ad over the number of times the ad has been displayed. This is the most basic form of monitoring the performance of a campaign."},
+   { "text": "An ad impression is one successful ad call – one ad loading on a webpage is one ad impression. An Ad Call or Ad Request is when one computer requests an ad from another. It is a generic term that refers to the request for an ad." , "correct": true},
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed." },
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page." }
+     ]
+},
+
+
+{
+   "question_id": 21,
+   "question":  "What is 'click through ratio (ctr)'?",
+   "questionCn" : "什么是“点击率（ctr）”？",
+   "responsesCn" : [
+     {"text":"是点击广告的用户与展示广告的次数之比。 这是监视广告系列效果的最基本形式。", "correct": true},
+     {"text":"是可以定位的潜在用户总数。"},
+     {"text":"显示广告的屏幕/海报/灯箱/横幅…的数量。 例如 双面iVision是两项资产。 巨大的LED屏幕，灯箱，滚动面板，横幅或海报是一项资产。"},
+     {"text":"是通过广告活动可以达到的潜在用户总数。"}
+   ],
+   "responses": [
+   { "text": "Is the ratio of users which have clicked on an ad over the number of times the ad has been displayed. This is the most basic form of monitoring the performance of a campaign." , "correct": true },
+   { "text": "Is the potential total numbers of users that can be targeted." },
+   { "text": "Number of screen/poster/Lightbox/Banner… where the ad is displayed. e.g.  a double face iVision is two assets. A giant LED screen, a Lightbox, a scrolling panel, a banner or a poster is one asset." },
+   { "text": "Is the potential total number of users that can be reached through a campaign." }
+     ]
+},
+
+
+{
+   "question_id": 22,
+   "question":  "What is 'banner'?",
+   "questionCn" : "什么是“旗帜”",
+   "responsesCn" : [
+     {"text":"被广告主选择用来触发或者包含在他们搜索引擎广告里的特定的词语或词组"},
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。 * Passengers = Pax（IATA定义）"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）"},
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。", "correct": true}
+   ],
+   "responses": [
+   { "text": "A specific word or phrase chosen by advertisers to trigger and include their ad withi search engine results." },
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once."},
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page." , "correct": true }
+     ]
+},
+
+
+{
+   "question_id": 23,
+   "question":  "What is 'campaign reach'?",
+   "questionCn" : "什么是“广告投放抵达数”？",
+   "responsesCn" : [
+     {"text":"数字方式滚动。每个循环包含多个广告（广告位）。"},
+     {"text":"是通过广告活动可以达到的潜在用户总数", "correct": true},
+     {"text":"在广告投放期间至少被记录一次的人数。"},
+     {"text":"是可以定位的潜在用户总数。"}
+   ],
+   "responses": [
+   { "text": "Digital way of scrolling. Each loop contains multiple ads (slots)." },
+   { "text": "Is the potential total number of users that can be reached through a campaign.","correct": true },
+   { "text": "Total number of individuals encountered at least once during the campaign." },
+   { "text": "Is the potential total numbers of users that can be targeted." }
+     ]
+},
+
+
+{
+   "question_id": 24,
+   "question":  "What is 'total reach'?",
+   "questionCn" : "什么是“全部抵达数”？",
+   "responsesCn" : [
+     {"text":"是可以定位的潜在用户总数。", "correct": true},
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）"},
+     {"text":"是通过广告活动可以达到的潜在用户总数"}
+   ],
+   "responses": [
+   { "text": "Is the potential total numbers of users that can be targeted." , "correct": true },
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Is the potential total number of users that can be reached through a campaign." }
+     ]
+},
+
+
+{
+   "question_id": 25,
+   "question":  "What is 'keyword'?",
+   "questionCn" : "什么是“关键字”",
+   "responsesCn" : [
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。"},
+     {"text":"广告的总观看时间。它是在媒体网络级别和资产级别计算的"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"},
+     {"text":"被广告主选择用来触发或者包含在他们搜索引擎广告里的特定的词语或词组", "correct": true}
+   ],
+   "responses": [
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page" },
+   { "text": "Total number of time an ad is seen. It is calculated at the media network level and at the asset level." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." },
+   { "text": "A specific word or phrase chosen by advertisers to trigger and include their ad withi search engine results." , "correct": true }
+     ]
+},
+
+
+{
+   "question_id": 26,
+   "question":  "What is 'served impression'?",
+   "questionCn" : "什么是“投放的广告印象”",
+   "responsesCn" : [
+     {"text":"广告包含在屏幕的可见空间中，位于全屏或部分屏幕的焦点对准的广告单元中，并且在可见空间和时间长度内符合预先确定的最小广告像素百分比 广告位于屏幕的可见空间中。 公认的是，具有可见广告印象的广告存在“看到的机会”，而投放的广告印象可能是这种情况，也可能不是。"},
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"该广告已开始在屏幕上呈现。 请注意，在绝大部分的DOOH体验中，所有广告（投放时）在整个播放过程中都是完全可见的。 在数字媒体世界中，该术语通常称为“播放”。", "correct": true},
+     {"text":"广告印象是一次成功的广告调用-网页上加载的一个广告就是一次广告印象。 广告呼叫或广告请求是指一台计算机向另一台计算机请求广告。 这是一个通用术语，指的是广告请求。"}
+   ],
+   "responses": [
+   { "text": "An ad was contained in the viewable space of the screen, it is in an in-focus ad unit that is either Full screen or Partial screen, and it meets pre-established minimum percent of ad pixels within the viewable space and the length of time the ad is in the viewable space of the screen. It is recognized that an “opportunity to see” the ad exists with a viewable ad impression, which may or may not be the case with a served ad impression." },
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "An ad that was reported to have begun to render at the screen. Note that in the vast majority of DOOH experiences, all ads (when served) are fully viewable for the entirety of the play. In the digital media world, this term is commonly known as a “play”." , "correct": true },
+   { "text": "An ad impression is one successful ad call – one ad loading on a webpage is one ad impression. An Ad Call or Ad Request is when one computer requests an ad from another. It is a generic term that refers to the request for an ad" }
+     ]
+},
+
+
+{
+   "question_id": 27,
+   "question":  "What is 'audience impression'?",
+   "questionCn" : "什么是“受众印象”",
+   "responsesCn" : [
+     {"text":"一种度量单位，包括有机会看到（又称为流量），通知和停留时间的总人数，并已根据媒体的有效长度进行校准。 也可以解释为通过数字户外显示屏的人们可能注意到一条消息的总次数。 该概念有时称为“可见性调整触点”或“ VAC”。", "correct": true},
+     {"text":"在任何地理上定义的市场中，一个评分点的成本。"},
+     {"text":"网络设备覆盖的地理区域。"},
+     {"text":"该广告已开始在屏幕上呈现。 请注意，在绝大部分的DOOH体验中，所有广告（投放时）在整个播放过程中都是完全可见的。 在数字媒体世界中，该术语通常称为“播放”。"}
+   ],
+   "responses": [
+   { "text": "A unit of measure that includes the total number of people with an opportunity to see (aka traffic), notice, and dwell time, calibrated to the media’s spot length. It can also be explained as the total number of times people passing a digital out-of-home display are likely to notice a message. This concept is sometimes referred to as “Visibility Adjusted Contact”, or “VAC”." , "correct": true },
+   { "text": "The cost of one rating point in any geographically defined market." },
+   { "text": "The geographic area covered by network installations." },
+   { "text": "An ad that was reported to have begun to render at the screen. Note that in the vast majority of DOOH experiences, all ads (when served) are fully viewable for the entirety of the play. In the digital media world, this term is commonly known as a “play”." }
+     ]
+},
+
+
+{
+   "question_id": 28,
+   "question":  "What is 'audience reach measurement'?",
+   "questionCn" : "什么是“受众群体覆盖率指数”？",
+   "responsesCn" : [
+     {"text":"该广告已开始在屏幕上呈现。 请注意，在绝大部分的DOOH体验中，所有广告（投放时）在整个播放过程中都是完全可见的。 在数字媒体世界中，该术语通常称为“播放”。"},
+     {"text":"该术语提供获取广告的人数或机器总数。 在DOOH情景中，受众群体覆盖率衡量的预期应用是对人数进行计数。", "correct": true},
+     {"text":"在广告投放期间至少一次接触广告的总人数。 例如。 如果在广告投放期间从同一选定的机场，计划内或计划外下飞机，则该乘客将被计算一次"},
+     {"text":"一种度量单位，包括有机会看到（又称为流量），通知和停留时间的总人数，并已根据媒体的有效长度进行校准。 也可以解释为通过数字户外显示屏的人们可能注意到一条消息的总次数。 该概念有时称为“可见性调整触点”或“ VAC”。"}
+   ],
+   "responses": [
+   { "text": "An ad that was reported to have begun to render at the screen. Note that in the vast majority of DOOH experiences, all ads (when served) are fully viewable for the entirety of the play. In the digital media world, this term is commonly known as a “play”." },
+   { "text": "A term that provides a count of the total number of people or machines that get ads. In DOOH scenari, the expected application of Audience Reach Measurement is to count people." , "correct": true },
+   { "text": "Total number of individuals exposed to the ad at least once during the campaign. Eg. A passenger is counted once if he enplans and deplans from the same selected airport during the campaign" },
+   { "text": "A unit of measure that includes the total number of people with an opportunity to see (aka traffic), notice, and dwell time, calibrated to the media’s spot length. It can also be explained as the total number of times people passing a digital out-of-home display are likely to notice a message. This concept is sometimes referred to as “Visibility Adjusted Contact”, or “VAC”." }
+     ]
+},
+
+
+{
+   "question_id": 29,
+   "question":  "What is 'audience composition'?",
+   "questionCn" : "什么是“受众群体构成”？",
+   "responsesCn" : [
+     {"text":"网络受众群体的人口统计，社会经济或行为特征，其中包括每个细分受众群中总受众群体所占的百分比。", "correct": true},
+     {"text":"给定广告活动或一组广告活动的受众的属性。 经常基于人口统计特征（例如56％的男性/ 44％的女性）或地理属性。", "correct": true},
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。 * Passengers = Pax（IATA定义）"},
+     {"text":"给定广告投放达到的可定位目标受众的百分比。"}
+   ],
+   "responses": [
+   { "text": "The demographic, socioeconomic, or behavioral profile of the network’s audience that is inclusive of the percentage of the total audience falling in each segment." , "correct": true },
+   { "text": "Attributes of the audience of a given campaign or set of campaigns. Very often based on demographic (e.g. 56% male/44% female) or geographic attributes.","correct": true},
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once." },
+   { "text": "Percentage of an addressable target audience reached by a given campaign." }
+     ]
+},
+
+
+{
+   "question_id": 30,
+   "question":  "What is 'coverage'?",
+   "questionCn" : "什么是“覆盖面”",
+   "responsesCn" : [
+     {"text":"网络设备覆盖的地理区域。", "correct": true},
+     {"text":"搭乘相同航班号的转机航班的乘客"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"},
+     {"text":"该术语提供获取广告的人数或机器总数。 在DOOH情景中，受众群体覆盖率衡量的预期应用是对人数进行计数。"}
+   ],
+   "responses": [
+   { "text": "The geographic area covered by network installations." , "correct": true },
+   { "text": "Passengers that board a connecting flight with the same flight number." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." },
+   { "text": "A term that provides a count of the total number of people or machines that get ads. In DOOH scenari, the expected application of Audience Reach Measurement is to count people." }
+     ]
+},
+
+
+{
+   "question_id": 31,
+   "question":  "What is 'cost per thousand'?",
+   "questionCn" : "什么是“每千次成本”？",
+   "responsesCn" : [
+     {"text":"在市场中的显示器上投放1,000次广告展示的成本（价格）。 缩写：CPM", "correct": true},
+     {"text":"是通过广告活动可以达到的潜在用户总数。"},
+     {"text":"被广告主选择用来触发或者包含在他们搜索引擎广告里的特定的词语或词组"},
+     {"text":"在任何地理上定义的市场中，一个评分点的成本。"}
+   ],
+   "responses": [
+   { "text": "The cost (price) to deliver 1,000 ad impressions on displays in a market. Acronym:CPM" , "correct": true },
+   { "text": "Is the potential total number of users that can be reached through a campaign." },
+   { "text": "A specific word or phrase chosen by advertisers to trigger and include their ad withi search engine results." },
+   { "text": "The cost of one rating point in any geographically defined market. Acronym:CPP" }
+     ]
+},
+
+
+{
+   "question_id": 32,
+   "question":  "What is 'cost per ratings point'?",
+   "questionCn" : "什么是“每收视率成本”？",
+   "responsesCn" : [
+     {"text":"广告的总观看时间。它是在媒体网络级别和资产级别计算的"},
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。"},
+     {"text":"在任何地理上定义的市场中，一个评分点的成本。", "correct": true},
+     {"text":"在市场中的显示器上投放1,000次广告展示的成本（价格）。 缩写：CPM"}
+   ],
+   "responses": [
+   { "text": "Total number of time an ad is seen. It is calculated at the media network level and at the asset level" },
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page." },
+   { "text": "The cost of one rating point in any geographically defined market. Acronym: CPP" , "correct": true },
+   { "text": "The cost (price) to deliver 1,000 ad impressions on displays in a market. Acronym:CPM" }
+     ]
+},
+
+
+{
+   "question_id": 33,
+   "question":  "What is 'dwell time'?",
+   "questionCn" : "什么是“停留时间”",
+   "responsesCn" : [
+     {"text":"目标受众通常在定义的时间范围内接触内容，广告或特定广告的次数。 频率代表与累积覆盖范围估计值结合使用时的平均暴露程度，尽管当通过频率分布分析在离散覆盖范围估计的情况下进行评估时，频率也可以根据特定暴露水平进行报告。"},
+     {"text":"个人在屏幕暴露区域的时间长度，该区域是屏幕可见（如果合适）的声音的位置。 （来源：MRC数字基于地点的受众群体衡量标准第1版）", "correct": true},
+     {"text":"个体看到DOOH＆OOH广告的平均次数（条件是至少看一次或者以上）接触频次 = 广告有效展示次数 / 广告活动中独立乘客数量 "},
+     {"text":"网络设备覆盖的地理区域。"}
+   ],
+   "responses": [
+   { "text": "The number of times the target audience is typically exposed to content, advertising, or a specific ad, in the defined time frame. Frequency represents the average exposure when used in conjunction with cumulative reach estimates, though it can also be reported on the basis of specific exposure levels when evaluated in the context of discrete reach estimates through frequency distribution analyses." },
+   { "text": "The length of time an individual is in a Screen Exposure Zone which is a location from which the screen is visible and, if appropriate, audible. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)", "correct": true},
+   { "text": "The average number of times an individual sees the DOOH&OOH ad (conditional on seeing it at least once). Frequency = viewed impressions / Campaign Unique Pax" },
+   { "text": "The geographic area covered by network installations." }
+     ]
+},
+
+
+{
+   "question_id": 34,
+   "question":  "What is 'exposure'?",
+   "questionCn" : "什么是“曝光”",
+   "responsesCn" : [
+     {"text":"网络设备覆盖的地理区域。"},
+     {"text":"衡量广告投放期间，在推动客户意识和品牌认知方面发生积极转变的有效性"},
+     {"text":"消费者对品牌或产品的熟悉程度。"},
+     {"text":"当内容被认为是可见的时，将出现在已定义的“屏幕曝光区”中，尽管这并不要求查看或收听内容。 接触也常被称为“看到机会”。 （来源：MRC数字基于地点的受众群体衡量标准第1版）", "correct": true }
+   ],
+   "responses": [
+   { "text": "The geographic area covered by network installations." },
+   { "text": "A measurement of an advertising campaign’s effectiveness in driving a positive shift in customer awareness and perception of a brand." },
+   { "text": "The extent consumers are familiar with a brand or product." },
+   { "text": "Presence in the defined Screen Exposure Zone while content is deemed to be viewable, though this does not require that the content be viewed or listened to. Exposure is also often referred to as Opportunity-to-See. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" , "correct": true }
+     ]
+},
+{
+   "question_id": 35,
+   "question":  "What is 'gross rating point '?",
+   "questionCn" : "什么是“总收视点”？",
+   "responsesCn" : [
+     {"text":"GRP是指投放的总展示次数，以占市场人口的百分比表示。 在计算GRP时，首先必须将总印象数减少为居住在定义的市场中并且是该市场人口基础的一部分的个人的市场印象。 缩写：GRP", "correct": true},
+     {"text":"客户对品牌的看法以及受众对品牌的感觉。 也称为“品牌资产”"},
+     {"text":"消费者考虑购买品牌的程度"},
+     {"text":"在任何地理上定义的市场中，一个评分点的成本。"}
+   ],
+   "responses": [
+   { "text": "GRP means the total number of impressions delivered, expressed as a percentage of a market population. In the calculation of GRPs, total impressions must first be reduced to the in-market impressions of individuals who live in the defined market and are part of that market’s population base. Acronym: GRP" , "correct": true },
+   { "text": "The way a brand is viewed by its customers, and how your audience feels about your brand. Also known as “Brand Equity”." },
+   { "text": "The extent a consumer will consider a brand for purchase." },
+   { "text": "The cost of one rating point in any geographically defined market. Acronym: CPP" }
+     ]
+},
+{
+   "question_id": 36,
+   "question":  "What is 'media unit'?",
+   "questionCn" : "什么是“媒体单元”",
+   "responsesCn" : [
+     {"text":"由DOOH网络定义的单位，用于描述将在其上播放DOOH广告单元的物理设备。 对于基于位置的数字网络，大多数情况下，媒体单元是单个屏幕，但是在组合多个屏幕以描绘大于一个屏幕的内容的位置，整个屏幕组可以称为单个媒体 单元。"},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"消费者考虑购买品牌的程度"},
+     {"text":"一个设备或者设计来传递基于数字化场景、数字户外广告或者是视频、音频或两者结合的广告内容的媒体"}
+   ],
+   "responses": [
+   { "text": "A unit defined by the DOOH network, used to describe the physical device on which a DOOH ad unit will play. Most often for digital place-based networks, a media unit is a single screen, however in locations where multiple screens are combined to portray content that is larger than one screen, the entirety of the group of screens may be referred to as a single media unit." , "correct": true },
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed."},
+   { "text": "The extent a consumer will consider a brand for purchase." },
+   { "text": "A device or medium designed to deliver Digital Place-Based, Digital Out-of-Home, and/or Advertising content whether it be video, audio, or both." }
+     ]
+},
+{
+   "question_id": 37,
+   "question":  "What is 'screen'?",
+   "questionCn" : "什么是“屏幕”",
+   "responsesCn" : [
+     {"text":"一个设备或者设计来传递基于数字化场景、数字户外广告或者是视频、音频或两者结合的广告内容的媒体", "correct": true},
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。"},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"由DOOH网络定义的单位，用于描述将在其上播放DOOH广告单元的物理设备。 对于基于位置的数字网络，大多数情况下，媒体单元是单个屏幕，但是在组合多个屏幕以描绘大于一个屏幕的内容的位置，整个屏幕组可以称为单个媒体 单元。"}
+   ],
+   "responses": [
+   { "text": "A device or medium designed to deliver Digital Place-Based, Digital Out-of-Home, and/or Advertising content whether it be video, audio, or both." , "correct": true },
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children."},
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed." },
+   { "text": "A unit defined by the DOOH network, used to describe the physical device on which a DOOH ad unit will play. Most often for digital place-based networks, a media unit is a single screen, however in locations where multiple screens are combined to portray content that is larger than one screen, the entirety of the group of screens may be referred to as a single media unit." }
+     ]
+},
+
+
+{
+   "question_id": 38,
+   "question":  "What is 'target'?",
+   "questionCn" : "什么是“目标”",
+   "responsesCn" : [
+     {"text":"根据年龄，性别，种族，种族或收入定义的，反映产品或服务的最理想消费者前景的任何受众； 或其任意地理定义的组合。 扩展的目标包括购买，行为和受众细分。", "correct": true},
+     {"text":"在给定时间段内，一个品牌的广告时间占总广告时间的百分比"},
+     {"text":"显示广告的屏幕/海报/灯箱/横幅…的数量。 例如 双面iVision是两项资产。 巨大的LED屏幕，灯箱，滚动面板，横幅或海报是一项资产。"},
+     {"text":"网络设备覆盖的地理区域。"}
+   ],
+   "responses": [
+   { "text": "Any audience reflecting the most desired consumer prospects for a product or service, defined by age, sex, race, ethnicity or income; or their combinations for any geographic definition. Expanded targets include purchasing, behavioural, and audience segmentations." , "correct": true },
+   { "text": "The percentage of advertising time for one brand within the total advertising time on a given period." },
+   { "text": "Number of screen/poster/Lightbox/Banner… where the ad is displayed. e.g.  a double face iVision is two assets. A giant LED screen, a Lightbox, a scrolling panel, a banner or a poster is one asset." },
+   { "text": "The geographic area covered by network installations." }
+     ]
+},
+{
+   "question_id": 39,
+   "question":  "What is 'unique traffic'?",
+   "questionCn" : "什么是‘唯一的流量’",
+   "responsesCn" : [
+     {"text":"在报告期间内，有机会看到任何消息的不重复的受众。", "correct": true },
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）"},
+     {"text":"根据年龄，性别，种族，种族或收入定义的，反映产品或服务的最理想消费者前景的任何受众； 或其任意地理定义的组合。 扩展的目标包括购买，行为和受众细分。"}
+   ],
+   "responses": [
+   { "text": "The unduplicated audience that has an opportunity to see any message during a reporting period." , "correct": true },
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once." },
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Any audience reflecting the most desired consumer prospects for a product or service, defined by age, sex, race, ethnicity or income; or their combinations for any geographic definition. Expanded targets include purchasing, behavioural, and audience segmentations." }
+     ]
+},
+{
+   "question_id": 40,
+   "question":  "What is 'universe'?",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"基于数字位置/户外的网络需要以人口数量为基础的地理范围或覆盖范围定义。 这些可以基于网络的特定属性和关联的场地流量进行自定义（或限制）。 在某些情况下，出于媒体可比性的目的，可以声明定制的Universe或进行总体人口估算（例如，美国人口普查估算）。" , "correct": true },
+     {"text":"是通过广告活动可以达到的潜在用户总数。"},
+     {"text":"在广告投放期间至少被记录一次的人数。"},
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。"}
+   ],
+   "responses": [
+   { "text": "A geographic universe or coverage definition stated on the basis of population amounts is required for Digital Place-Based / Out-of-Home Networks subject to measurement. These may be customized (or limited) based on the specific attributes of the network and the associated Venue Traffic. In some cases a customized universe can be stated or a general population estimate (e.g., US Census estimates) for media comparability purposes." , "correct": true },
+   { "text": "Is the potential total number of users that can be reached through a campaign." },
+   { "text": "Total number of individuals encountered at least once during the campaign." },
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once." }
+     ]
+},
+
+
+{
+   "question_id": 41,
+   "question":  "What is 'venue'?",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"广告网络和屏幕的位置。 示例包括超级市场，办公楼，加油站和其他可以找到消费者的地方。 （来源：MRC数字基于地点的受众群体衡量标准第1版）" , "correct": true },
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）"},
+     {"text":"根据年龄，性别，种族，种族或收入定义的，反映产品或服务的最理想消费者前景的任何受众； 或其任意地理定义的组合。 扩展的目标包括购买，行为和受众细分。"}
+   ],
+   "responses": [
+   { "text": "The place and location of the advertising network and screens. Examples include supermarkets, office buildings, gas stations, and other places where consumers can be found. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" , "correct": true },
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Any audience reflecting the most desired consumer prospects for a product or service, defined by age, sex, race, ethnicity or income; or their combinations for any geographic definition. Expanded targets include purchasing, behavioural, and audience segmentations." }
+     ]
+},
+{
+   "question_id": 42,
+   "question":  "What is 'audience reach %'?",
+   "questionCn" : "什么是“受众抵达率”？",
+   "responsesCn" : [
+     {"text":"给定广告投放达到的可定位目标受众的百分比。", "correct": true},
+     {"text":"在候机楼或机场内看到广告至少1次的人数，超过可以看到广告的总人数"},
+     {"text":"该广告已开始在屏幕上呈现。 请注意，在绝大部分的DOOH体验中，所有广告（投放时）在整个播放过程中都是完全可见的。 在数字媒体世界中，该术语通常称为“播放”。"},
+     {"text":"给定广告活动或一组广告活动的受众的属性。 经常基于人口统计特征（例如56％的男性/ 44％的女性）或地理属性。"}
+   ],
+   "responses": [
+   { "text": "Percentage of an addressable target audience reached by a given campaign." , "correct": true },
+   { "text": "The population within the terminal or airport that sees at least 1 time the ad, over the total population that has the possibility to see the advertisement."},
+   { "text": "An ad that was reported to have begun to render at the screen. Note that in the vast majority of DOOH experiences, all ads (when served) are fully viewable for the entirety of the play. In the digital media world, this term is commonly known as a “play”." },
+   { "text": "Attributes of the audience of a given campaign or set of campaigns. Very often based on demographic (e.g. 56% male/44% female) or geographic attributes." }
+     ]
+},
+
+
+{
+   "question_id": 43,
+   "question":  "What is 'behavioral profiles %'?",
+   "questionCn" : "什么是“行为特征百分比”？",
+   "responsesCn" : [
+     {"text":"根据过去观察到的行为进行分析，通常在新近出现的30-90天内。 行为配置文件可能引用或可能不引用有关唯一用户的配置文件。" , "correct": true },
+     {"text":"广告包含在屏幕的可见空间中，位于全屏或部分屏幕的焦点对准的广告单元中，并且在可见空间和时间长度内符合预先确定的最小广告像素百分比 广告位于屏幕的可见空间中。 公认的是，具有可见广告印象的广告存在“看到的机会”，而投放的广告印象可能是这种情况，也可能不是。"},
+     {"text":"在原点和最终目的地之间中途停留的乘客，然后登上与相同或不同航空公司的转机航班（对于NPD，被视为转机乘客，在机场停留最长6小时的乘客）"},
+     {"text":"根据年龄，性别，种族，种族或收入定义的，反映产品或服务的最理想消费者前景的任何受众； 或其任意地理定义的组合。 扩展的目标包括购买，行为和受众细分。"}
+   ],
+   "responses": [
+   { "text": "Profile based on past-observed behaviour, typically within 30-90 days of recency. Behavioural profiles may or may not refer to a profile about unique users." , "correct": true },
+   { "text": "An ad was contained in the viewable space of the screen, it is in an in-focus ad unit that is either Full screen or Partial screen, and it meets pre-established minimum percent of ad pixels within the viewable space and the length of time the ad is in the viewable space of the screen. " },
+   { "text": "Passengers who have a stopover between the origin and final destination and then board a connecting flight with the same or different airline (for NPD, to be considered as a transfer passenger, a passenger who stays maximum 6 hours in the airport)." },
+   { "text": "Any audience reflecting the most desired consumer prospects for a product or service, defined by age, sex, race, ethnicity or income; or their combinations for any geographic definition. Expanded targets include purchasing, behavioural, and audience segmentations." }
+     ]
+},
+{
+   "question_id": 44,
+   "question":  "What is 'behavioral segments'?",
+   "questionCn" : "什么是“行为细分”？",
+   "responsesCn" : [
+     {"text":"根据以前的行为，最近的在线行为或离线购买和访问来细分受众群体。 例如，汽车广告商可能会寻求覆盖过去30天内访问过汽车评论网站的任何人。" , "correct": true },
+     {"text":"给定广告投放达到的可定位目标受众的百分比。"},
+     {"text":"网络设备覆盖的地理区域。"},
+     {"text":"根据过去观察到的行为进行分析，通常在新近出现的30-90天内。 行为配置文件可能引用或可能不引用有关唯一用户的配置文件。"}
+   ],
+   "responses": [
+   { "text": "Segmenting audiences that are defined by previous behaviours, frequently their recent online behaviour, or offline purchases and visitation. For example, an auto advertiser may seek to reach anyone who’s visited an auto review site in the last 30 days." , "correct": true},
+   { "text": "Percentage of an addressable target audience reached by a given campaign." },
+   { "text": "The geographic area covered by network installations." },
+   { "text": "Profile based on past-observed behaviour, typically within 30-90 days of recency. Behavioural profiles may or may not refer to a profile about unique users." }
+     ]
+},
+
+
+{
+   "question_id": 45,
+   "question":  "What is 'buyer graphic'?",
+   "questionCn" : "什么是“买方图片”",
+   "responsesCn" : [
+     {"text":"基于过去购买行为的资料，例如：哪些物品？ 什么时候？ 花了多少钱？", "correct": true},
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"在广告投放期间至少一次接触广告的总人数。 例如。 如果在广告投放期间从同一选定的机场，计划内或计划外下飞机，则该乘客将被计算一次"},
+     {"text":"根据过去观察到的行为进行分析，通常在新近出现的30-90天内。 行为配置文件可能引用或可能不引用有关唯一用户的配置文件。"}
+   ],
+   "responses": [
+   { "text": "Profile based on past purchase behaviour, such as: What items? When? How much was spent?" , "correct": true },
+   { "text": "In AAM a network is composed by at least 3 assets." },
+   { "text": "Total number of individuals exposed to the ad at least once during the campaign. Eg. A passenger is counted once if he enplans and deplans from the same selected airport during the campaign" },
+   { "text": "Profile based on past-observed behaviour, typically within 30-90 days of recency. Behavioural profiles may or may not refer to a profile about unique users." }
+     ]
+},
+{
+   "question_id": 46,
+   "question":  "What is 'demo targeting'?",
+   "questionCn" : "什么是“目标定位”？",
+   "responsesCn" : [
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。" , "correct": true },
+     {"text":"在AAM中，套装由至少三个或者以上媒体组成"},
+     {"text":"计划内和计划外旅客总数*，过境旅客只计算一次。"},
+     {"text":"根据过去观察到的行为进行分析，通常在新近出现的30-90天内。 行为配置文件可能引用或可能不引用有关唯一用户的配置文件。"}
+   ],
+   "responses": [
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children." , "correct": true },
+   { "text": "In AAM a network is composed by at least 3 assets."},
+   { "text": "Total passengers* enplaned and deplaned, passengers in transit are counted once." },
+   { "text": "Profile based on past-observed behaviour, typically within 30-90 days of recency. Behavioural profiles may or may not refer to a profile about unique users." }
+     ]
+},
+
+
+{
+   "question_id": 47,
+   "question":  "What is 'geographical targeting'?",
+   "questionCn" : "什么是“地理位置定位”？",
+   "responsesCn" : [
+     {"text":"根据受众群体在现实世界中的位置定义目标受众。 位置属性的范围从细粒度属性（例如启用了移动/ GPS的纬度/经度数据）到更广泛的属性（例如DMA或州/省）。 在技术规范中，目标可以简单地称为“地理”，“用户”，“受众”，而无需详细说明整个术语。", "correct": true},
+     {"text":"搭乘相同航班号的转机航班的乘客"},
+     {"text":"广告显示的总时间。 它是在媒体网络级别和资产级别计算的"},
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。"}
+   ],
+   "responses": [
+   { "text": "Targeting audiences defined by their location in the real-world. Location attributes can vary from granular attributes such as mobile/GPS-enabled latitude/longitude data to broader attributes such as DMA or state/province. In technical specifications, targets may simply be referred to as “geo”, “user”, “audience” without spelling out the full term." , "correct": true },
+   { "text": "Passengers that board a connecting flight with the same flight number." },
+   { "text": "Total number of time an ad is displayed. It is calculated at the media network level and at the asset level." },
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children." }
+     ]
+},
+{
+   "question_id": 48,
+   "question":  "What is 'look a like targeting'?",
+   "questionCn" : "什么是“相似目标”？",
+   "responsesCn" : [
+     {"text":"定位具有与目标受众相同的一些属性的受众。 例如，广告客户可以定位过去购买者的“相似”对象", "correct": true},
+     {"text":"是通过广告活动可以达到的潜在用户总数。"},
+     {"text":"被广告主选择用来触发或者包含在他们搜索引擎广告里的特定的词语或词组"},
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。"}
+   ],
+   "responses": [
+   { "text": "Targeting audiences that have some number of attributes in common with an audience of interest. For example, an advertiser may target “look-alikes” of past purchasers" , "correct": true },
+   { "text": "Is the potential total number of users that can be reached through a campaign." },
+   { "text": "A specific word or phrase chosen by advertisers to trigger and include their ad withi search engine results." },
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children." }
+     ]
+},
+
+
+{
+   "question_id": 49,
+   "question":  "What is 'psychographic targeting'?",
+   "questionCn" : "什么是“心理定位”？",
+   "responsesCn" : [
+     {"text":"根据性格，兴趣，态度或心态（例如， 财务乐观主义者，注重环保的消费者。 通常来自离线调查和陈述的偏好。", "correct": true},
+     {"text":"是通常在网页顶部，底部或页边距运行的图形图像。 它基本上是页面上的广告空间。"},
+     {"text":"根据受众群体在现实世界中的位置定义目标受众。 位置属性的范围从细粒度属性（例如启用了移动/ GPS的纬度/经度数据）到更广泛的属性（例如DMA或州/省）。 在技术规范中，目标可以简单地称为“地理”，“用户”，“受众”，而无需详细说明整个术语。"},
+     {"text":"定位具有与目标受众相同的一些属性的受众。 例如，广告客户可以定位过去购买者的“相似”对象"}
+   ],
+   "responses": [
+   { "text": "Targeting audiences defined by personality, interests, attitudes or mindsets, e.g. Financial Optimists, Environmentally-Conscious Consumers. Often driven from offline surveys and stated preferences." , "correct": true },
+   { "text": "Is a graphic image that typically runs at the top, buttom or in the margein of a webpage. It is basically the ad space on a page." },
+   { "text": "Targeting audiences defined by their location in the real-world. Location attributes can vary from granular attributes such as mobile/GPS-enabled latitude/longitude data to broader attributes such as DMA or state/province. In technical specifications, targets may simply be referred to as “geo”, “user”, “audience” without spelling out the full term." },
+   { "text": "Targeting audiences that have some number of attributes in common with an audience of interest. For example, an advertiser may target “look-alikes” of past purchasers" }
+     ]
+},
+{
+   "question_id": 50,
+   "question":  "What is 'retargeting'?",
+   "questionCn" : "什么是“重新选择目标”？",
+   "responsesCn" : [
+     {"text":"通过最近对所述广告客户表现出兴趣来确定目标受众，最常见的兴趣是访问广告客户的网站。", "correct": true},
+     {"text":"在报告期间内，有机会看到任何消息的不重复的受众。"},
+     {"text":"个体看到DOOH＆OOH广告的平均次数（条件是至少看一次或者以上）接触频次 = 广告有效展示次数 / 广告活动中独立乘客数量 "},
+     {"text":"根据性格，兴趣，态度或心态（例如， 财务乐观主义者，注重环保的消费者。 通常来自离线调查和陈述的偏好。"}
+   ],
+   "responses": [
+   { "text": "Targeting audiences that are defined by having recently shown interest in said advertiser, interest most often being defined as visiting the advertiser’s web site." , "correct": true },
+   { "text": "The unduplicated audience that has an opportunity to see any message during a reporting period."},
+   { "text": "The average number of times an individual sees the DOOH&OOH ad (conditional on seeing it at least once). Frequency = viewed impressions / Campaign Unique Pax" },
+   { "text": "Targeting audiences defined by personality, interests, attitudes or mindsets, e.g. Financial Optimists, Environmentally-Conscious Consumers. Often driven from offline surveys and stated preferences." }
+     ]
+},
+
+
+{
+   "question_id": 51,
+   "question":  "What is 'segmentation'?",
+   "questionCn" : "什么是“细分”？",
+   "responsesCn" : [
+     {"text":"根据共享的人口统计/心理/行为特征，将广泛的消费者或企业划分为子组（称为细分）。 细分通常用于创建目标受众（由一个或多个细分组成）或为特定细分自定义要约或消息。", "correct": true},
+     {"text":"衡量广告活动在推动客户意识和品牌认知方面发生积极转变的有效性。"},
+     {"text":"消费者对品牌或产品的熟悉程度。"},
+     {"text":"根据以前的行为，最近的在线行为或离线购买和访问来细分受众群体。 例如，汽车广告商可能会寻求覆盖过去30天内访问过汽车评论网站的任何人。"}
+   ],
+   "responses": [
+   { "text": "Dividing a broad group of consumers or businesses into subgroups (known as segments) based on shared demographic/psychographic/behavioural attributes. Segmentation is often used to create target audiences (comprised of one or more segments) or to customize an offer or message for specific segments." , "correct": true },
+   { "text": "A measurement of an advertising campaign’s effectiveness in driving a positive shift in customer awareness and perception of a brand." },
+   { "text": "The extent consumers are familiar with a brand or product." },
+   { "text": "Segmenting audiences that are defined by previous behaviours, frequently their recent online behaviour, or offline purchases and visitation. For example, an auto advertiser may seek to reach anyone who’s visited an auto review site in the last 30 days." }
+     ]
+},
+
+
+{
+   "question_id": 52,
+   "question":  "What is 'target audience'?",
+   "questionCn" : "什么是“目标受众”",
+   "responsesCn" : [
+     {"text":"广告客户希望与其广告系列联系的特定群体。 目标受众是由某些属性或一组属性定义的（例如18-24岁的女性，跑车迷，新轿车的购物者购物市场）。", "correct": true},
+     {"text":"消费者对品牌或产品的熟悉程度。"},
+     {"text":"客户对品牌的看法以及受众对品牌的感觉。 也称为“品牌资产”"},
+     {"text":"根据年龄，性别，种族，种族或收入定义的，反映产品或服务的最理想消费者前景的任何受众； 或其任意地理定义的组合。 扩展的目标包括购买，行为和受众细分。"}
+   ],
+   "responses": [
+   { "text": "A specific group that an advertiser seeks to reach with its campaign. Target audience is defined by a certain attribute or set of attributes (e.g. Women aged 18-24, Sports Car Lovers, Shoppers In-market for a New Sedan)." , "correct": true },
+   { "text": "The extent consumers are familiar with a brand or product." },
+   { "text": "The way a brand is viewed by its customers, and how your audience feels about your brand. Also known as “Brand Equity”." },
+   { "text": "Any audience reflecting the most desired consumer prospects for a product or service, defined by age, sex, race, ethnicity or income; or their combinations for any geographic definition. Expanded targets include purchasing, behavioural, and audience segmentations." }
+     ]
+},
+{
+   "question_id": 53,
+   "question":  "What is 'ad recall'?",
+   "questionCn" : "什么是“广告记忆”？",
+   "responsesCn" : [
+     {"text":"在曝光后几天内可能会记住广告的估计人数。", "correct": true},
+     {"text":"客户对品牌的看法以及受众对品牌的感觉。 也称为“品牌资产”"},
+     {"text":"消费者考虑购买品牌的程度"},
+     {"text":"通过最近对所述广告客户表现出兴趣来确定目标受众，最常见的兴趣是访问广告客户的网站。"}
+   ],
+   "responses": [
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed." , "correct": true },
+   { "text": "The way a brand is viewed by its customers, and how your audience feels about your brand. Also known as “Brand Equity”." },
+   { "text": "The extent a consumer will consider a brand for purchase." },
+   { "text": "Targeting audiences that are defined by having recently shown interest in said advertiser, interest most often being defined as visiting the advertiser’s web site." }
+     ]
+},
+{
+   "question_id": 54,
+   "question":  "What is 'awareness'?",
+   "questionCn" : "什么是“意识”？",
+   "responsesCn" : [
+     {"text":"由DOOH网络定义的单位，用于描述将在其上播放DOOH广告单元的物理设备。 对于基于位置的数字网络，大多数情况下，媒体单元是单个屏幕，但是在组合多个屏幕以描绘大于一个屏幕的内容的位置，整个屏幕组可以称为单个媒体 单元。"},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"消费者对品牌或产品的熟悉程度。", "correct": true},
+     {"text":"指示观察到的提升量的统计意义的度量。 通常，在95％置信水平或更高的置信水平上具有统计意义的结果适合进行业务决策。 在80％置信水平或更高的置信水平上具有统计意义的结果可以被认为是有方向性的。"}
+   ],
+   "responses": [
+   { "text": "A unit defined by the DOOH network, used to describe the physical device on which a DOOH ad unit will play. Most often for digital place-based networks, a media unit is a single screen, however in locations where multiple screens are combined to portray content that is larger than one screen, the entirety of the group of screens may be referred to as a single media unit." },
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed."},
+   { "text": "The extent consumers are familiar with a brand or product." , "correct": true },
+   { "text": "Metric to indicate the statistical significance of the lift observed. Generally, results that are statistically significant at the 95% confidence level or higher are suitable for making business decisions. Results that are statistically significant at the 80% confidence level or higher can be considered directional." }
+     ]
+},
+{
+   "question_id": 55,
+   "question":  "What is 'target brand health'?",
+   "questionCn" : "什么是“目标品牌健康”？",
+   "responsesCn" : [
+     {"text":"客户对品牌的看法以及受众对品牌的感觉。 也称为“品牌资产”", "correct": true},
+     {"text":"广告客户希望与其广告系列联系的特定群体。 目标受众是由某些属性或一组属性定义的（例如18-24岁的女性，跑车迷，新轿车的购物者购物市场）。"},
+     {"text":"在指定的时间范围内，在屏幕上展示给内容，广告或特定广告的目标受众的定义域的净（未重复）计数或百分比。 该时间范围可以是一天，一周或一个月，甚至是频率较低的时间段，尽管用户通常希望获得更频繁的报告。 （来源：MRC数字基于地点的受众群体衡量标准版本1）”"},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"}
+   ],
+   "responses": [
+   { "text": "The way a brand is viewed by its customers, and how your audience feels about your brand. Also known as “Brand Equity”." , "correct": true },
+   { "text": "A specific group that an advertiser seeks to reach with its campaign. Target audience is defined by a certain attribute or set of attributes (e.g. Women aged 18-24, Sports Car Lovers, Shoppers In-market for a New Sedan)." },
+   { "text": "The net (unduplicated) count or percent of the defined universe of the target audience exposed to content, advertising, or a specific ad, in a Screen within a defined time frame. This time frame can be a day, week, or month, or even less-frequent time periods although more frequent reports are generally desirable to users. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" },
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed." }
+     ]
+},
+{
+   "question_id": 56,
+   "question":  "What is 'brand lift'?",
+   "questionCn" : "什么是“品牌提升”？",
+   "responsesCn" : [
+     {"text":"衡量广告活动在推动客户意识和品牌认知方面发生积极转变的有效性。", "correct": true},
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。"},
+     {"text":"在曝光后几天内可能会记住广告的估计人数。"},
+     {"text":"广告客户希望与其广告系列联系的特定群体。 目标受众是由某些属性或一组属性定义的（例如18-24岁的女性，跑车迷，新轿车的购物者购物市场）。"}
+   ],
+   "responses": [
+   { "text": "A measurement of an advertising campaign’s effectiveness in driving a positive shift in customer awareness and perception of a brand." , "correct": true },
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children."},
+   { "text": "The estimated number of people likely to remember your ads within days of being exposed." },
+   { "text": "A specific group that an advertiser seeks to reach with its campaign. Target audience is defined by a certain attribute or set of attributes (e.g. Women aged 18-24, Sports Car Lovers, Shoppers In-market for a New Sedan)." }
+     ]
+},
+{
+   "question_id": 57,
+   "question":  "What is 'confidence'?",
+   "questionCn" : "什么是“信心”？",
+   "responsesCn" : [
+     {"text":"指示观察到的提升量的统计意义的度量。 通常，在95％置信水平或更高的置信水平上具有统计意义的结果适合进行业务决策。 在80％置信水平或更高的置信水平上具有统计意义的结果可以被认为是有方向性的。", "correct": true},
+     {"text":"广告客户希望与其广告系列联系的特定群体。 目标受众是由某些属性或一组属性定义的（例如18-24岁的女性，跑车迷，新轿车的购物者购物市场）。"},
+     {"text":"在指定的时间范围内，在屏幕上展示给内容，广告或特定广告的目标受众的定义域的净（未重复）计数或百分比。 该时间范围可以是一天，一周或一个月，甚至是频率较低的时间段，尽管用户通常希望获得更频繁的报告。 （来源：MRC数字基于地点的受众群体衡量标准版本1）”"},
+     {"text":"消费者考虑购买品牌的程度"}
+   ],
+   "responses": [
+   { "text": "Metric to indicate the statistical significance of the lift observed. Generally, results that are statistically significant at the 95% confidence level or higher are suitable for making business decisions. Results that are statistically significant at the 80% confidence level or higher can be considered directional." , "correct": true },
+   { "text": "A specific group that an advertiser seeks to reach with its campaign. Target audience is defined by a certain attribute or set of attributes (e.g. Women aged 18-24, Sports Car Lovers, Shoppers In-market for a New Sedan)." },
+   { "text": "The net (unduplicated) count or percent of the defined universe of the target audience exposed to content, advertising, or a specific ad, in a Screen within a defined time frame. This time frame can be a day, week, or month, or even less-frequent time periods although more frequent reports are generally desirable to users. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" },
+   { "text": "The extent a consumer will consider a brand for purchase." }
+     ]
+},
+{
+   "question_id": 58,
+   "question":  "What is 'consideration'?",
+   "questionCn" : "什么是“考虑”？",
+   "responsesCn" : [
+     {"text":"衡量广告活动在推动客户意识和品牌认知方面发生积极转变的有效性。"},
+     {"text":"定位由受众特征（即年龄，性别，家庭收入，有子女身份）定义的受众。"},
+     {"text":"消费者考虑购买品牌的程度", "correct": true},
+     {"text":"指示观察到的提升量的统计意义的度量。 通常，在95％置信水平或更高的置信水平上具有统计意义的结果适合进行业务决策。 在80％置信水平或更高的置信水平上具有统计意义的结果可以被认为是有方向性的。"}
+   ],
+   "responses": [
+   { "text": "A measurement of an advertising campaign’s effectiveness in driving a positive shift in customer awareness and perception of a brand."},
+   { "text": "Targeting audiences that are defined by demographic attributes i.e. age, gender, household income, presence of children."},
+   { "text": "The extent a consumer will consider a brand for purchase." , "correct": true},
+   { "text": "Metric to indicate the statistical significance of the lift observed. Generally, results that are statistically significant at the 95% confidence level or higher are suitable for making business decisions. Results that are statistically significant at the 80% confidence level or higher can be considered directional." }
+     ]
+},
+{
+   "question_id": 59,
+   "question":  "Which Media has the second fastest growth ?",
+   "questionCn" : "哪个媒体增长速度第二快",
+   "responsesCn" : [
+     {"text":"DOOH", "correct": true },
+     {"text":"手机"},
+     {"text":"OOH"},
+     {"text":"台式机移动网"}
+   ],
+   "responses": [
+   { "text": "DOOH" , "correct": true },
+   { "text": "Mobile"},
+   { "text": "OOH"},
+   { "text": "Deskstop internet"}
+    ]
+},
+{
+   "question_id": 60,
+   "question":  "Over 2015 to 2020, Programmatic will grow by how much ?",
+   "questionCn" : "从2015年到2020年，程序化将增长多少？",
+   "responsesCn" : [
+     { "text": "21%" , "correct": true },
+     { "text": "7%"},
+     { "text": "15%"},
+     { "text": "30%"}
+   ],
+   "responses": [
+   { "text": "21%" , "correct": true },
+   { "text": "7%"},
+   { "text": "15%"},
+   { "text": "30%"}
+    ]
+},
+{
+   "question_id": 61,
+   "question":  "Desktop ad revenue will be higher than Mobile ad revenue in 2022?",
+   "questionCn" : "到2022年，桌面广告收入将高于移动广告收入吗？",
+   "responsesCn" : [
+     {"text":"否", "correct": true},
+     {"text":"是"}
+   ],
+   "responses": [
+   { "text": "False" , "correct": true },
+   { "text": "True"}
+    ]
+},
+{
+   "question_id": 62,
+   "question":  "What is the signification of VIOOH?",
+   "questionCn" : "VIOOH的含义是什么？",
+   "responsesCn" : [
+     {"text":"在家中的观看展示", "correct": true},
+     {"text":"在家中可观看的印象"},
+     {"text":"在家中可见的印象"}
+   ],
+   "responses": [
+   { "text": "Viewed Impression Out of Home" , "correct": true },
+   { "text": "Viewable Impression Out of Home"},
+   { "text": "Visible Impression Out of Home"}
+    ]
+},
+{
+   "question_id": 63,
+   "question":  "How many module VIOOH is offering",
+   "questionCn" : "VIOOH有多少模块？",
+   "responsesCn" : [
+     { "text": "3" , "correct": true },
+     { "text": "2" },
+     { "text": "4" },
+     { "text": "5" }
+   ],
+   "responses": [
+   { "text": "3" , "correct": true },
+   { "text": "2" },
+   { "text": "4" },
+   { "text": "5" }
+    ]
+},
+{
+   "question_id": 64,
+   "question":  "Is a double faced screen (iVision for instance) defined as:",
+   "questionCn" : "一个双面屏幕（例如，iVision）的定义：",
+   "responsesCn" : [
+     {"text":"两个资产/媒体单元/框架", "correct": true},
+     {"text":"一个资产/媒体单元/框架"}
+   ],
+   "responses": [
+   { "text": "Two assets/media units/frames" , "correct": true },
+   { "text": "One asset/media unit/frame"}
+    ]
+},
+{
+   "question_id": 65,
+   "question":  "A transit passenger is:",
+   "questionCn" : "过境旅客是：",
+   "responsesCn" : [
+     {"text":"登上具有相同航班号的中转航班的乘客" , "correct": true},
+     {"text":"搭乘带有2个不同航班号的中转航班的乘客"}
+   ],
+   "responses": [
+   { "text": "a passenger that board a connecting flight with the same flight number" , "correct": true },
+   { "text": "a passenger that board a connecting flight with 2 different flight numbers"}
+    ]
+},
+{
+   "question_id": 66,
+   "question":  "an individual coming 3 times at the airport during the campaign and exposed to the ad is counted as 3 unique passengers",
+   "questionCn" : "在广告系列活动中，有3次来过机场且接触过广告的个人被视为3位唯一身份乘客",
+   "responsesCn" : [
+     {"text":"否 - 一位唯一乘客", "correct": true},
+     {"text":"是"}
+   ],
+   "responses": [
+   { "text": "False - one unique passenger" , "correct": true },
+   { "text": "True"}
+    ]
+},
+{
+   "question_id": 67,
+   "question":  "#of spots = # of viewed impressions",
+   "questionCn" : "点数=观看的浏览次数",
+   "responsesCn" : [
+     {"text":"否", "correct": true},
+     {"text":"是"}
+   ],
+   "responses": [
+   { "text": "False" , "correct": true },
+   { "text": "True"}
+    ]
+},
+{
+   "question_id": 68,
+   "question":  "The frequency is:",
+   "questionCn" : "频率是：",
+   "responsesCn" : [
+     {"text":"一个人看到广告系列的平均次数", "correct": true},
+     {"text":"在广告投放期间一个人到机场的平均时间"}
+   ],
+   "responses": [
+   { "text": "the average number of times an individual sees the campaign" , "correct": true },
+   { "text": "the average number of time an individual is coming to the airport during the campaign duration"}
+    ]
+},
+{
+   "question_id": 69,
+   "question":  "Online advertising is also known as:",
+   "questionCn" : "线上广告又被称为：",
+   "responsesCn" : [
+     {"text":"两者都是", "correct": true },
+     {"text":"互联网广告"},
+     {"text":"数字广告"}
+   ],
+   "responses": [
+   { "text": "Both" , "correct": true },
+   { "text": "Internet advertising"},
+   { "text": "Digital advertising"}
+    ]
+},
+{
+   "question_id": 70,
+   "question":  "Is an In-stream video ad displayed in a standard  banner placement?",
+   "questionCn" : "",
+   "responsesCn" : [
+     { "text": "否" , "correct": true },
+     { "text": "是"}
+   ],
+   "responses": [
+   { "text": "False" , "correct": true },
+   { "text": "True"}
+    ]
+},
+{
+   "question_id": 71,
+   "question":  "What is the aim of SMM (Social Media Marketing)?",
+   "questionCn" : "SMM（社交媒体营销）的目标是什么？",
+   "responsesCn" : [
+     {"text":"产生用来帮助用户与社交网络共享的内容" , "correct": true},
+     {"text":"在社交媒体上显示横幅"}
+   ],
+   "responses": [
+   { "text": "to produce content that users will share with their social network to help " , "correct": true },
+   { "text": "to display banners on social media"}
+    ]
+},
+{
+   "question_id": 72,
+   "question":  "Could a native ad be a banner in between paragraphs?",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"否", "correct": true},
+     {"text":"是"}
+   ],
+   "responses": [
+   { "text": "No" , "correct": true },
+   { "text": "Yes"}
+    ]
+},
+{
+   "question_id": 73,
+   "question":  "CPT = CPM",
+   "questionCn" : "CPT = CPM",
+   "responsesCn" : [
+     {"text":"是", "correct": true},
+     {"text":"否"}
+   ],
+   "responses": [
+   { "text": "Yes" , "correct": true },
+   { "text": "No"}
+    ]
+},
+{
+   "question_id": 74,
+   "question":  "How many KPI AAM is delivering?",
+   "questionCn" : "",
+   "responsesCn" : [
+     { "text": "4" , "correct": true },
+     { "text": "2"},
+     { "text": "3"},
+     { "text": "5"}
+   ],
+   "responses": [
+   { "text": "4" , "correct": true },
+   { "text": "2"},
+   { "text": "3"},
+   { "text": "5"}
+    ]
+},
+{
+   "question_id": 75,
+   "question":  "Which KPI AAM is delivering?",
+   "questionCn" : "AAM正在交付哪个KPI？",
+   "responsesCn" : [
+     {"text":"浏览的展示次数，覆盖率，频率，唯一身份乘客", "correct": true},
+     {"text":"可见的展示次数，覆盖率，频率，唯一身份乘客"},
+     {"text":"浏览的展示次数，覆盖率，频率，受众"},
+     {"text":"印象，到达，频率，Pax"}
+   ],
+   "responses": [
+   { "text": "Viewed impression, Reach, Frequency, Unique Passenger" , "correct": true },
+   { "text": "Viewable impression, Reach, Frequency, Unique Passenger"},
+   { "text": "Viewed impression, Reach, Frequency, Audience"},
+   { "text": "Impression, Reach, Frequence, Pax"}
+    ]
+},
+{
+   "question_id": 76,
+   "question":  "On which platform AAM data are sent?",
+   "questionCn" : "AAM数据发送到哪个平台上？”，",
+   "responsesCn" : [
+     { "text": "VIOOH Automation" , "correct": true },
+     { "text": "VIOOH Exchange" , "correct": true },
+     { "text": "BI tool"},
+     { "text": "DSP"}
+   ],
+   "responses": [
+   { "text": "VIOOH Automation" , "correct": true },
+   { "text": "VIOOH Exchange" , "correct": true },
+   { "text": "BI tool"},
+   { "text": "DSP"}
+    ]
+},
+{
+   "question_id": 77,
+   "question":  "Which Data source AAM used? (several answer)",
+   "questionCn" : "AAM使用了哪些数据源（多选）？",
+   "responsesCn" : [
+     {"text":"NPM数据（例如 CiR）", "correct": true },
+     {"text":"机场权限", "correct": true },
+     {"text":"ACI", "correct": true },
+     {"text":"其他"}
+   ],
+   "responses": [
+   { "text": "NPD Data (ex CiR)" , "correct": true },
+   { "text": "Airport Authorities" , "correct": true },
+   { "text": "ACI" , "correct": true},
+   { "text": "others"}
+    ]
+},
+{
+   "question_id": 78,
+   "question":  "Which Hypothesis can be updated locally? (several answer)",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"分析数据", "correct": true },
+     {"text":"平均访问系数", "correct": true },
+     {"text":"曝光时间"},
+     {"text":"停留时间规则（每5分钟1次联系）"}
+   ],
+   "responses": [
+   { "text": "Profiling Data" , "correct": true },
+   { "text": "Average Coefficient of visit" , "correct": true },
+   { "text": "The exposure duration" },
+   { "text": "Dwell Time rule (1contact each 5 minutes)" }
+    ]
+},
+{
+   "question_id": 79,
+   "question":  "What is programmatic ad buying?",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"使用软件购买数字广告", "correct": true },
+     {"text":"一个机器人"},
+     {"text":"手动插入订单的工具"}
+   ],
+   "responses": [
+   { "text": "the use of software to purchase digital advertising" , "correct": true },
+   { "text": "a robot" },
+   { "text": "a tool to manually insert orders"}
+    ]
+},
+{
+   "question_id": 80,
+   "question":  "Which is the selling currency used on programmatic platform?",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"印象", "correct": true },
+     {"text":"看到的机会"},
+     {"text":"点击"}
+   ],
+   "responses": [
+   { "text": "Impression" , "correct": true },
+   { "text": "Opportunity to see" },
+   { "text": "click"}
+    ]
+},
+{
+   "question_id": 81,
+   "question":  "VIOOH is",
+   "questionCn" : "VIOOH是",
+   "responsesCn" : [
+     {"text":"OOH和DOOH的一个开放，独立和全球市场", "correct": true },
+     {"text":"JCDecaux的一个市场"},
+     {"text":"所有媒体（电视，广播，在线，OOH…）的全球市场"}
+   ],
+   "responses": [
+   { "text": "An open, independant and global Market place for OOH and DOOH" , "correct": true },
+   { "text": "A JCDecaux Market place" },
+   { "text": "A global market place for all the media (TV, radio, online, OOH…)"}
+    ]
+},
+{
+   "question_id": 82,
+   "question":  "VIOOH Automation enables automated planning and selling of out of home inventory and audience impressions",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"是", "correct": true },
+     {"text":"否"}
+   ],
+   "responses": [
+   { "text": "Yes" , "correct": true },
+   { "text": "No" }
+    ]
+},
+{
+   "question_id": 83,
+   "question":  "VIOOH Content is replacing former Smartcontent",
+   "questionCn" : "",
+   "responsesCn" : [
+     {"text":"是", "correct": true },
+     {"text":"否"}
+   ],
+   "responses": [
+   { "text": "Yes" , "correct": true },
+   { "text": "No" }
+    ]
+},
+{
+   "question_id": 84,
+   "question":  "OOH&DOOH common currency is",
+   "questionCn" : "OOH＆DOOH的共通点是“",
+   "responsesCn" : [
+     {"text":"已见印象", "correct": true },
+     {"text":"可见印象"}
+   ],
+   "responses": [
+   { "text": "Viewed impression" , "correct": true },
+   { "text": "Viewable impression" }
+    ]
+},
+{
+   "question_id": 85,
+   "question":  "What is 'message duration'?",
+   "questionCn" : "什么是“消息持续时间”？",
+   "responsesCn" : [
+     {"text":"可以看到DOOH消息的时间间隔。", "correct": true },
+     {"text":"网络受众群体的人口统计，社会经济或行为特征，其中包括每个细分受众群中总受众群体所占的百分比。"},
+     {"text":"网络设备覆盖的地理区域。"},
+     {"text":"个人在屏幕暴露区域的时间长度，该区域是屏幕可见（如果合适）的声音的位置。 （来源：MRC数字基于地点的受众群体衡量标准第1版）"}
+   ],
+   "responses": [
+   { "text": "The interval of time when a DOOH message is viewable." , "correct": true },
+   { "text": "The demographic, socioeconomic, or behavioral profile of the network’s audience that is inclusive of the percentage of the total audience falling in each segment." },
+   { "text": "The geographic area covered by network installations." },
+   { "text": "The length of time an individual is in a Screen Exposure Zone which is a location from which the screen is visible and, if appropriate, audible. (Source: MRC Digital Place-Based Audience Measurement Standards Version 1)" }
+    ]
+}]
