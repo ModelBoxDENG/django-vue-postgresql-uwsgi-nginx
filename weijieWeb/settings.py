@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'anw*k0iu%c-9v2%yxr7!=pvc+j)p9+-8iy1zc9xdvq@(5aqh=9'
+SECRET_KEY = ')7eb)&7au^qf!pq-1stoa97g1697q)ow2s@o@+!lv#dyn#@=ka'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','47.101.212.50','www.weijie.site']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'backend',
 ]
 
@@ -55,7 +56,9 @@ ROOT_URLCONF = 'weijieWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['frontend/dist'],
+        'DIRS': [
+          os.path.join(BASE_DIR, 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,8 +122,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-# Add for vue.js
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "frontend/dist/static"),
+  os.path.join(BASE_DIR, 'static')
 ]
