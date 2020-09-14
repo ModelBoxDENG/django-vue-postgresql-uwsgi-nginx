@@ -11,6 +11,19 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import psycopg2 as pg
+# Database set
+DBUSER = "postgres"
+DBPASSWORD = "postgres"
+DBHOST = "47.101.212.50"
+DBPORT = "5432"
+DBDATABASE = "postgres"
+
+CONNECTION_PG = pg.connect(user = DBUSER,
+                  password = DBPASSWORD,
+                  host = DBHOST,
+                  port = DBPORT,
+                  database = DBDATABASE)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
